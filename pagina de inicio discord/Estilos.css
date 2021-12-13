@@ -1,0 +1,68 @@
+body{
+    background-image: url(imgs/background.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family:'lobster';
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+#cuerpo{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius:2%;
+    border-color: black; 
+    border-style: solid;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    width: 500px;
+    height: 500px;
+    color: azure;
+    position: relative;
+    left: 30%; bottom: 15%
+}
+h1{
+    font-size: 20px;
+}
+#ocontraseña{
+    text-align: left;
+}
+
+#registro{
+    text-align: left;
+}
+a{
+color: chartreuse;
+font-style: italic;
+text-transform:lowercase;
+}
+
+#encabezado{
+    display: inline;
+}
+input{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(27, 27, 27);
+    border-color: aliceblue;
+    border-style:solid;
+    border-radius: 5%;
+}
+#botón{
+    height: 30px;
+    width: auto;
+    color: aliceblue;
+}
+
+#botón:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+@media (max-width:500px){
+    #cuerpo{
+        width:100%;
+    }
+}
